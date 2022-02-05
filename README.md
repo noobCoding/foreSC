@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+#  foreSC: a Deep Learning embedded Framework for Single-cell data analysis: Dimension Reduction, Visualization and Classification
+#### Hai CT Nguyen
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+### Batch effect correction
+<img src="imgs/7celllines.png"> 
 
-You can use the [editor on GitHub](https://github.com/noobCoding/foreSC/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+It is a very interesting finding that we can help address the batch effect very well. The below figure illustrates the good performance of batch effect correction of we in 7 cell lines dataset (A549-hungman lung carcinoma cell lines, H1437-lung metastatic, HCT116-colorectal carcinoma, IMR90-human Caucasian foetal lung fibroblast, K562-human Caucasian chronic myelogenous Leukemia, GM12878-B-Lymphocyte, H1-embryonic stem cell). 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Dimension Reduction & Visualization
+<img src="imgs/performance_1.png"> 
 
-### Markdown
+The table shows the updated comparison of performance between our method and other recent state-of-the-art methods. To illustrate the good performance of our method in dimensional reduction and visualization against previous methods, we tested the clustering performance of 2-D presentation of 23 datasets with a variety of ranges of number of cells and types. Each dataset has specific different characteristics about sizes (number of cells, number of genes), number of cell types and sparsity. The 5 state-of-the-art methods of interest are principal component analysis (PCA), t-distributed stochastic neighbor embedding (t-SNE), zero-inflated factor analysis (ZIFA), single-cell interpretation via multi-kernel learning (SIMLR), and deep variational autoencoder for single-cell RNA-seq (VASC). The full clustering performance of selected methods over 23 datasets is shown in the table with two metrics: normalized mutual information (NMI) and adjusted rand index (ARI). The results show that our method can significantly improve the clustering performance and consequently the visualization performance. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/noobCoding/foreSC/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<img src="imgs/performance_2.png"> 
