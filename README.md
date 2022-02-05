@@ -1,5 +1,5 @@
-#  foreSC: a Deep Learning embedded Framework for Single-cell data analysis: Dimension Reduction, Visualization and Classification
-#### Hai CT Nguyen
+#  foreSC: deep learning embedded framework for single-cell data analysis 
+## *** Dimension Reduction, Visualization and Classification ***
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
  
 ### Batch effect correction
